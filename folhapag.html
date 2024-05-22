@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/crud-folha.css" />
+    <title>VMA Solutions - Folha de Pagamento</title>
+</head>
+
+<body>
+    <div id="principal">
+        <div id="conteudo">
+            <form id="pagtoFunc">
+                <table>
+                    <thead>
+                        <caption>VMA Solutions - Folha de Pagamento</caption>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="selectFuncionario">Selecione o Funcionário:</label>
+                            </td>
+                            <td>
+                                <select id="selectFuncionario" onchange="carregarDadosFuncionario()">
+                                   
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="nomeFuncionario">Nome:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="nomeFuncionario" readonly>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="cargoFuncionario">Cargo:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="cargoFuncionario" readonly>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="departamentoFuncionario">Departamento:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="departamentoFuncionario" readonly>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="dataAdmissao">Data de Admissão:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="dataAdmissao" readonly>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="horasTrabalhadas">Horas Trabalhadas:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="horasTrabalhadas" readonly>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="valorHoras">Valor das horas:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="valorHoras" readonly>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="salarioTotal">Salário:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="salarioTotal" readonly>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/pagto.js"></script>
+</body>
+
+</html>

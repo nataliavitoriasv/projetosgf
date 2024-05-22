@@ -1,0 +1,144 @@
+.principal {
+  position: relative;
+  height: 100vh;
+}
+
+.conteudo {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  max-width: 800px;
+}
+
+
+.labelTituloPagina {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#labelCadastroCliente {
+  width: 100%;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+input[type="email"],
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+
+input[type="email"]:hover,
+input[type="text"]:hover,
+select:hover {
+  border-color: #3498db;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+  border-color: #2980b9;
+  box-shadow: 0 0 5px #2980b9;
+  color: #555;
+}
+
+
+.btnbotoes {
+  background-color: #316c94b9;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.btnbotoes:hover {
+  background-color: #2c3e50;
+}
+
+
+.btnbotoes:active {
+  transform: translateY(2px);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: left;
+}
+
+thead,
+tfoot {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+thead>tr>th {
+  position: sticky;
+  top: -1px;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+tbody>tr:nth-child(odd) {
+  background-color: #ecf0f1;
+}
+
+tbody>tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.dados tr:hover {
+  background-color: #d5dbdb;
+}
+
+
+p {
+  text-align: justify;
+}
+
+.num {
+  text-align: right;
+}
+
+.tdLabel {
+  width: 100px;
+}
